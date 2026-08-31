@@ -1,0 +1,31 @@
+{
+  "platform": {
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "python": "3.12.2"
+  },
+  "n_frames_measured": 200000,
+  "mheg_decide": {
+    "p50_us": 0.8,
+    "p95_us": 1.4,
+    "mean_us": 0.8641335
+  },
+  "ossl_materialize_oss": {
+    "p50_us": 2.4,
+    "p95_us": 2.6,
+    "mean_us": 2.4457915
+  },
+  "eaml_step": {
+    "p50_us": 39.4,
+    "p95_us": 59.0,
+    "mean_us": 37.341469
+  },
+  "full_pipeline_stub_detector": {
+    "p50_us": 44.8,
+    "p95_us": 68.6,
+    "mean_us": 47.493865
+  },
+  "oss_serialized_bytes": 402,
+  "eaml_window_serialized_bytes_ub": 4824,
+  "window_w": 12
+}

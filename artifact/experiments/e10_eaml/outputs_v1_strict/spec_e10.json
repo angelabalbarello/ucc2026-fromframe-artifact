@@ -1,0 +1,82 @@
+{
+  "specification_version": 1,
+  "protocol": "docs/PROTOCOLO_E10_EAML_confirmatorio.md",
+  "smoke": false,
+  "decision_dev": "keep_A0",
+  "winner_candidate_index": null,
+  "a2_config": null,
+  "a0_config": {
+    "theta_alert": 0.55,
+    "cooldown_frames": 24,
+    "hysteresis": 0.05
+  },
+  "a1_candidate": {
+    "theta_on": 0.55,
+    "theta_off": 0.52,
+    "min_realert_gap": 2,
+    "max_alerts_per_trip": 3,
+    "escalation_delta": 0.1,
+    "end_persistence": 1
+  },
+  "mheg_config": {
+    "tau_delta": 0.004972871858626604,
+    "tau_h": 0.6,
+    "max_skip": 8
+  },
+  "unit_frames": 10,
+  "sar_window": 12,
+  "budget_alerts_per_trip": 2.5,
+  "recall_margin": 0.02,
+  "personas": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12"
+  ],
+  "n_trips": 20,
+  "dev_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "holdout_seeds": [
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020
+  ],
+  "holdout_seen_during_selection": false,
+  "dev_exogenous_hashes": {
+    "201": "512fd0c8e200945d7ef2f2a184f6f544b17e9439dc322c6ccf98569089791bff",
+    "202": "19135b53d43ad80aafc3c58ea429849d6b81ad11df443c30131d1458089d467f",
+    "203": "aab88c0630ec64147bf2da40e66afaba0947efd6b76767ce1700817267656563",
+    "204": "ffeab59d8f3c63797023510942140adde5fcf3bcf95f0753866dcef87b174093",
+    "205": "18c4bc42af06733289391ec35be8ba0feb9c9e571272f85745a60088c1223733"
+  }
+}
