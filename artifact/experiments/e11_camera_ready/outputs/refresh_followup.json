@@ -1,0 +1,20 @@
+{
+ "counters": {
+  "requests": 1850,
+  "t+1_hold|evidence_quality": 1645,
+  "no_alert_after_in_episode": 1363,
+  "alert_later_same_episode": 487,
+  "delay_bin_5": 194,
+  "delay_bin_15": 107,
+  "t+1_none|": 205,
+  "delay_bin_10": 81,
+  "delay_bin_0": 31,
+  "delay_bin_20": 74
+ },
+ "example_seed_index_and_key": [
+  0,
+  "P02",
+  1,
+  9
+ ]
+}

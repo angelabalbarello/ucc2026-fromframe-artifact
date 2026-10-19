@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper (preferred-citation) and this software release."
+type: software
+title: "From Frame to Episode: artifact for Evidence-Preserving Alert Mediation for Selective Inference in Vehicular Edge Systems"
+version: "1.0.0"
+repository-code: "https://github.com/angelabalbarello/ucc2026-fromframe-artifact"
+license: MIT
+keywords:
+  - edge AI
+  - selective computation
+  - alert governance
+  - evidence architecture
+  - vehicular safety
+  - reproducibility
+authors:
+  - given-names: "Angela"
+    family-names: "Albarello"
+    email: "angela.albarello@embrapa.br"
+    affiliation: "Universidade de Brasília (UnB)"
+  - given-names: "Edna Dias"
+    family-names: "Canedo"
+    email: "ednacanedo@unb.br"
+    affiliation: "Universidade de Brasília (UnB)"
+  - given-names: "Vinícius P."
+    family-names: "Gonçalves"
+    email: "vpgvinicius@unb.br"
+    affiliation: "Universidade de Brasília (UnB)"
+  - given-names: "Leandro A."
+    family-names: "Villas"
+    email: "lvillas@unicamp.br"
+    affiliation: "Instituto de Computação, Universidade Estadual de Campinas (Unicamp)"
+  - given-names: "Roger Kreutz"
+    family-names: "Immich"
+    email: "roger@ic.unicamp.br"
+    affiliation: "Instituto de Computação, Universidade Estadual de Campinas (Unicamp)"
+  - given-names: "Rodolfo I."
+    family-names: "Meneguette"
+    email: "meneguette@icmc.usp.br"
+    affiliation: "Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo (USP)"
+  - given-names: "Geraldo P."
+    family-names: "Rocha Filho"
+    email: "geraldo.rocha@uesb.edu.br"
+    affiliation: "Universidade Estadual do Sudoeste da Bahia (UESB)"
+preferred-citation:
+  type: conference-paper
+  title: "From Frame to Episode: Evidence-Preserving Alert Mediation for Selective Inference in Vehicular Edge Systems"
+  collection-title: "Proceedings of the IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2026)"
+  year: 2026
+  authors:
+    - given-names: "Angela"
+      family-names: "Albarello"
+    - given-names: "Edna Dias"
+      family-names: "Canedo"
+    - given-names: "Vinícius P."
+      family-names: "Gonçalves"
+    - given-names: "Leandro A."
+      family-names: "Villas"
+    - given-names: "Roger Kreutz"
+      family-names: "Immich"
+    - given-names: "Rodolfo I."
+      family-names: "Meneguette"
+    - given-names: "Geraldo P."
+      family-names: "Rocha Filho"

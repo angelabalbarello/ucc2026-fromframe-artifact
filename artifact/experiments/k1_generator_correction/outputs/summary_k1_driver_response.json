@@ -1,0 +1,102 @@
+{
+ "A0": {
+  "v7": {
+   "mean_q_per_alert": 0.6295990199593642,
+   "response_rate_per_alert": 0.6333213816182622,
+   "critical_first_alerts": 9600,
+   "mean_q_at_first_critical_alert": 0.6426380208333333,
+   "response_rate_at_first_critical_alert": 0.6473958333333333,
+   "mean_prior_trip_alerts_before_first_critical_alert": 1.1841666666666666,
+   "alerts_total": 16734
+  },
+  "v7_1": {
+   "mean_q_per_alert": 0.62849154589372,
+   "response_rate_per_alert": 0.6323188405797101,
+   "critical_first_alerts": 9600,
+   "mean_q_at_first_critical_alert": 0.6465097222222221,
+   "response_rate_at_first_critical_alert": 0.6510416666666666,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.8773958333333334,
+   "alerts_total": 13800
+  }
+ },
+ "A1": {
+  "v7": {
+   "mean_q_per_alert": 0.6429583303381017,
+   "response_rate_per_alert": 0.6375530155991661,
+   "critical_first_alerts": 7915,
+   "mean_q_at_first_critical_alert": 0.6551857233101706,
+   "response_rate_at_first_critical_alert": 0.6572331017056222,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.8758054327226784,
+   "alerts_total": 13911
+  },
+  "v7_1": {
+   "mean_q_per_alert": 0.6400592184189702,
+   "response_rate_per_alert": 0.6331265793705491,
+   "critical_first_alerts": 8699,
+   "mean_q_at_first_critical_alert": 0.655076445568456,
+   "response_rate_at_first_critical_alert": 0.6586964018852741,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.7580181630072422,
+   "alerts_total": 13059
+  }
+ },
+ "A2_frozen": {
+  "v7": {
+   "mean_q_per_alert": 0.6363556451387137,
+   "response_rate_per_alert": 0.6219870664315109,
+   "critical_first_alerts": 8118,
+   "mean_q_at_first_critical_alert": 0.6454574197257127,
+   "response_rate_at_first_critical_alert": 0.6512687854151269,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.7208672086720868,
+   "alerts_total": 11907
+  },
+  "v7_1": {
+   "mean_q_per_alert": 0.6383419144843909,
+   "response_rate_per_alert": 0.6237017310252996,
+   "critical_first_alerts": 8538,
+   "mean_q_at_first_critical_alert": 0.6463560943234167,
+   "response_rate_at_first_critical_alert": 0.6509721246193488,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.5602014523307566,
+   "alerts_total": 11265
+  }
+ },
+ "A3": {
+  "v7": {
+   "mean_q_per_alert": 0.6353945137293514,
+   "response_rate_per_alert": 0.6140466032162784,
+   "critical_first_alerts": 7971,
+   "mean_q_at_first_critical_alert": 0.6452371095220175,
+   "response_rate_at_first_critical_alert": 0.6499811817839669,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.7377995232718605,
+   "alerts_total": 12188
+  },
+  "v7_1": {
+   "mean_q_per_alert": 0.6369693735234678,
+   "response_rate_per_alert": 0.6148065920929041,
+   "critical_first_alerts": 8391,
+   "mean_q_at_first_critical_alert": 0.6458646168513886,
+   "response_rate_at_first_critical_alert": 0.650697175545227,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.5886068406626147,
+   "alerts_total": 11711
+  }
+ },
+ "A4": {
+  "v7": {
+   "mean_q_per_alert": 0.6363538164088768,
+   "response_rate_per_alert": 0.6221418964357768,
+   "critical_first_alerts": 8123,
+   "mean_q_at_first_critical_alert": 0.6454345685091717,
+   "response_rate_at_first_critical_alert": 0.6509910131724732,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.7200541671796135,
+   "alerts_total": 11896
+  },
+  "v7_1": {
+   "mean_q_per_alert": 0.6384084845250798,
+   "response_rate_per_alert": 0.623977232301672,
+   "critical_first_alerts": 8541,
+   "mean_q_at_first_critical_alert": 0.646402060648636,
+   "response_rate_at_first_critical_alert": 0.6508605549701441,
+   "mean_prior_trip_alerts_before_first_critical_alert": 0.557780119423955,
+   "alerts_total": 11244
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "cases": {
+  "A_fresh_alert": [
+   "P01",
+   0,
+   2
+  ],
+  "B_reuse_dominated_candidate": [
+   "P01",
+   0,
+   2
+  ],
+  "C_refresh_served_then_alert": null,
+  "D_candidate_held": [
+   "P01",
+   3,
+   6
+  ],
+  "E_A3_stale_alert": [
+   "P05",
+   11,
+   1
+  ]
+ },
+ "counters_holdout": {
+  "A2": {
+   "frames": 5529600,
+   "exec": 1767667,
+   "candidates": 314211,
+   "hold_evidence_quality": 16973,
+   "hold_event_guard": 283481,
+   "alerts": 11907,
+   "alerts_stale12": 25,
+   "alerts_rhoW_gt_060": 0,
+   "force_requested": 1850,
+   "force_served": 1850
+  },
+  "A4": {
+   "frames": 5529600,
+   "exec": 1766490,
+   "candidates": 314425,
+   "hold_evidence_quality": 16568,
+   "hold_event_guard": 282567,
+   "alerts": 11896,
+   "alerts_stale12": 41,
+   "alerts_rhoW_gt_060": 0,
+   "force_requested": 3394,
+   "force_lost_at_episode_end": 1627
+  },
+  "A3": {
+   "frames": 5529600,
+   "exec": 1766490,
+   "candidates": 314425,
+   "hold_event_guard": 302237,
+   "alerts": 12188,
+   "alerts_stale12": 85,
+   "alerts_rhoW_gt_060": 0
+  }
+ },
+ "n_trips": 4800
+}

@@ -1,0 +1,48 @@
+# Default: normalize all text files to LF on every platform, so that
+# RELEASE_MANIFEST.sha256 verifies regardless of core.autocrlf.
+* text=auto eol=lf
+*.pdf binary
+*.zip binary
+*.png binary
+# The frozen SHA-256 manifests (artifact/MANIFEST.sha256 and
+# artifact/experiments/e10_eaml/outputs/MANIFEST.sha256) were computed on files
+# with CRLF line endings. Checking these files out with CRLF on every platform
+# keeps the manifests verifiable with a plain sha256sum. Generator v7.1 is also
+# kept in CRLF so that its recorded SHA-256/16 (fd9bd15e5299404e) holds.
+artifact/edge_runtime/__init__.py text eol=crlf
+artifact/edge_runtime/demo.py text eol=crlf
+artifact/edge_runtime/eaml.py text eol=crlf
+artifact/edge_runtime/event_guard.py text eol=crlf
+artifact/edge_runtime/mheg.py text eol=crlf
+artifact/edge_runtime/ossl.py text eol=crlf
+artifact/edge_runtime/payload.py text eol=crlf
+artifact/edge_runtime/policy_state.py text eol=crlf
+artifact/edge_runtime/runtime.py text eol=crlf
+artifact/experiments/e10_eaml/__init__.py text eol=crlf
+artifact/experiments/e10_eaml/arms.py text eol=crlf
+artifact/experiments/e10_eaml/bench_runtime_cost.py text eol=crlf
+artifact/experiments/e10_eaml/metrics.py text eol=crlf
+artifact/experiments/e10_eaml/outputs/bench_runtime_cost.json text eol=crlf
+artifact/experiments/e10_eaml/outputs/results_aosc.csv text eol=crlf
+artifact/experiments/e10_eaml/outputs/results_dev.csv text eol=crlf
+artifact/experiments/e10_eaml/outputs/results_holdout.csv text eol=crlf
+artifact/experiments/e10_eaml/outputs/spec_e10.json text eol=crlf
+artifact/experiments/e10_eaml/outputs/strongaccept/strongaccept_result.json text eol=crlf
+artifact/experiments/e10_eaml/outputs/summary_aosc.json text eol=crlf
+artifact/experiments/e10_eaml/outputs/summary_holdout.json text eol=crlf
+artifact/experiments/e10_eaml/outputs_v1_strict/results_dev.csv text eol=crlf
+artifact/experiments/e10_eaml/outputs_v1_strict/spec_e10.json text eol=crlf
+artifact/experiments/e10_eaml/outputs_v2_superiority/results_dev.csv text eol=crlf
+artifact/experiments/e10_eaml/outputs_v2_superiority/spec_e10.json text eol=crlf
+artifact/experiments/e10_eaml/run_aosc.py text eol=crlf
+artifact/experiments/e10_eaml/run_dev.py text eol=crlf
+artifact/experiments/e10_eaml/run_holdout.py text eol=crlf
+artifact/experiments/e10_eaml/run_strongaccept.py text eol=crlf
+artifact/experiments/e10_eaml/scenarios.py text eol=crlf
+artifact/pipeline_completo/synthetic_driver_risk_v7.py text eol=crlf
+artifact/README.md text eol=crlf
+artifact/sim/driver_personas.py text eol=crlf
+artifact/MANIFEST.sha256 text eol=crlf
+artifact/experiments/e10_eaml/outputs/MANIFEST.sha256 text eol=crlf
+docs/PROTOCOLO_E10_EAML_confirmatorio.md text eol=crlf
+artifact/pipeline_completo/synthetic_driver_risk_v7_1.py text eol=crlf

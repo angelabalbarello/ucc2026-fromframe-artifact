@@ -1,0 +1,32 @@
+index,name,group,min,max,mean,share_nonzero,constant,mean_dx_contribution,dx_share
+0,beh_normal,behaviour one-hot (state machine),0.0,1.0,0.9258,0.9258,False,0.000163,0.0335
+1,beh_phone,behaviour one-hot (state machine),0.0,1.0,0.0225,0.0225,False,7e-05,0.0144
+2,beh_radio,behaviour one-hot (state machine),0.0,1.0,0.0159,0.0159,False,6.4e-05,0.0131
+3,beh_drinking,behaviour one-hot (state machine),0.0,1.0,0.014,0.014,False,3.6e-05,0.0074
+4,beh_reach_object,behaviour one-hot (state machine),0.0,1.0,0.0055,0.0055,False,3e-05,0.0061
+5,beh_grooming,behaviour one-hot (state machine),0.0,1.0,0.0031,0.0031,False,8e-06,0.0017
+6,beh_talking,behaviour one-hot (state machine),0.0,1.0,0.0132,0.0132,False,3.8e-05,0.0078
+7,seatbelt_on,seatbelt one-hot,0.0,1.0,0.9708,0.9708,False,0.0,0.0
+8,seatbelt_off,seatbelt one-hot,0.0,1.0,0.0292,0.0292,False,0.0,0.0
+9,conf_behavior,"sensor confidence (Gaussian, precursor drop)",0.7158,1.0,0.9438,1.0,False,0.000822,0.1685
+10,conf_seatbelt,"sensor confidence (Gaussian, precursor drop)",0.8061,1.0,0.9643,1.0,False,0.000492,0.1008
+11,speed_norm,speed / 150 km/h (noisy),0.0901,0.7776,0.4481,1.0,False,0.000344,0.0705
+12,kin_accel,kinematic channel driven by risk curve + road noise (3 regimes),0.0,0.5235,0.0405,0.8493,False,0.000554,0.1135
+13,kin_brake,kinematic channel driven by risk curve + road noise (3 regimes),0.0,0.4539,0.0333,0.7885,False,0.000509,0.1043
+14,kin_gyro,kinematic channel driven by risk curve + road noise (3 regimes),0.0,0.35,0.026,0.7324,False,0.000459,0.0942
+15,fatigue_flag,state flag,0.0,1.0,0.0066,0.0066,False,1.5e-05,0.003
+16,phone_x_speed,phone x speed interaction,0.0,1.0,0.0227,0.0243,False,8e-05,0.0164
+17,ctx_highway,context flag,0.0,0.0,0.0,0.0,True,0.0,0.0
+18,ctx_urban,context flag,1.0,1.0,1.0,1.0,True,0.0,0.0
+19,ctx_rain,context flag,0.0,1.0,0.1375,0.1375,False,0.0,0.0
+20,ctx_night,context flag,0.0,1.0,0.2652,0.2652,False,5e-06,0.001
+21,traffic_free,traffic one-hot,0.0,1.0,0.6105,0.6105,False,4.9e-05,0.01
+22,traffic_moderate,traffic one-hot,0.0,1.0,0.3178,0.3178,False,5.5e-05,0.0113
+23,traffic_congested,traffic one-hot,0.0,1.0,0.0717,0.0717,False,3e-05,0.0061
+24,audio_siren,"audio flag, active only at SENSOR_LEVEL>=4",0.0,0.0,0.0,0.0,True,0.0,0.0
+25,audio_horn,"audio flag, active only at SENSOR_LEVEL>=4",0.0,0.0,0.0,0.0,True,0.0,0.0
+26,audio_child_cry,"audio flag, active only at SENSOR_LEVEL>=4",0.0,0.0,0.0,0.0,True,0.0,0.0
+27,audio_phone_ring,"audio flag, active only at SENSOR_LEVEL>=4",0.0,0.0,0.0,0.0,True,0.0,0.0
+28,audio_loud_music,"audio flag, active only at SENSOR_LEVEL>=4",0.0,0.0,0.0,0.0,True,0.0,0.0
+29,eye_gaze_off_road,eye-gaze series (v7),0.0,1.0,0.0706,0.987,False,0.000323,0.0663
+30,lane_offset_norm,lane-offset series (v7),0.0001,0.8526,0.1116,1.0,False,0.000731,0.1499
